@@ -1,0 +1,64 @@
+.banner {
+  background: url("file:///C:/Users/ASUS/Downloads/Background.png") no-repeat
+    center center;
+  background-size: cover;
+  padding-top: 20%;
+  padding-bottom: 20%;
+  color: black;
+}
+
+:root {
+  --emerald: #0f9d58;
+}
+.btn.primary {
+  background: var(--emerald);
+  color: white;
+}
+/* Cards */
+.card {
+  background: var(--card);
+  padding: 20px;
+  border-radius: var(--radius);
+  box-shadow: 0 6px 18px rgba(10, 20, 20, 0.06);
+  margin-bottom: 14px;
+}
+.hero-card {
+  padding: 20px;
+  text-align: left;
+}
+.small-card {
+  padding: 12px;
+}
+
+/* QnA */
+label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #e6eeea;
+  resize: vertical;
+  font-size: 15px;
+}
+.qna-list {
+  margin-top: 12px;
+}
+
+.btn.outline {
+  background: transparent;
+  border: 1px solid #e6f2ee;
+  color: var(--emerald);
+}
+
+.kontak {
+  background: url("file:///C:/Users/ASUS/Downloads/bckgroundkontak.jpg")
+    no-repeat center center;
+  background-size: cover;
+  padding-bottom: 20%;
+  padding-top: 20%;
+  color: #000000;
+}
